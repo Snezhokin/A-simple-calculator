@@ -36,3 +36,8 @@ def calculate():
         print(power(a,b))
     else :
         print("Invaild operation")
+
+    while True:
+        calculate()
+        if input("Do you want to perform one more operation? (yes/no)").lower() == "yes":
+            break
